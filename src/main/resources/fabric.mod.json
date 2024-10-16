@@ -16,6 +16,9 @@
       "dev.mxace.luachat.Luachat"
     ]
   },
+  "mixins": [
+    "luachat.mixins.json"
+  ],
   "depends": {
     "fabricloader": ">=${loader_version}",
     "fabric": "*",

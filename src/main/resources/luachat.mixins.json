@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "dev.mxace.luachat.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "MixinChat"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
