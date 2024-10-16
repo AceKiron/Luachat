@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "luachat",
+  "version": "${version}",
+  "name": "LuaChat",
+  "description": "Allows for complex manipulation of incoming chat messages.",
+  "authors": [
+    "_Mx_Ace"
+  ],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/luachat/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.mxace.luachat.Luachat"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
